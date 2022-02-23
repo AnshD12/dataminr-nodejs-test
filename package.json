@@ -1,0 +1,44 @@
+{
+  "name": "dataminr-nodejs-test",
+  "version": "1.0.0",
+  "description": "dataminr nodejs test",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "lint": "eslint . --ext .ts",
+    "test": "jest --coverage --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnshD12/dataminr-nodejs-test.git"
+  },
+  "author": "Anshul Dharmadhikari",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnshD12/dataminr-nodejs-test/issues"
+  },
+  "homepage": "https://github.com/AnshD12/dataminr-nodejs-test#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jest": "^27.4.1",
+    "@types/pg": "^8.6.4",
+    "@types/supertest": "^2.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "jest": "^27.5.1",
+    "supertest": "^6.2.2",
+    "ts-jest": "^27.1.3",
+    "ts-node": "^10.5.0",
+    "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "pg": "^8.7.3",
+    "winston": "^3.6.0"
+  }
+}
